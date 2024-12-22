@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="" label="Deployment Tasks" language="en" table="x_601332_cicd_tasks">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element/>
+            <help/>
+            <hint/>
+            <label>Deployment Tasks</label>
+            <language>en</language>
+            <name>x_601332_cicd_tasks</name>
+            <plural>Deployment Tasks</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-22 14:55:41</sys_created_on>
+            <sys_id>9c9f333e83ee561096cc5855eeaad3cb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Deployment Tasks</sys_name>
+            <sys_package display_value="CICD Pipeline" source="x_601332_cicd">93f673be83ae561096cc5855eeaad307</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="CICD Pipeline">93f673be83ae561096cc5855eeaad307</sys_scope>
+            <sys_update_name>sys_documentation_x_601332_cicd_tasks__en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-22 14:55:41</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

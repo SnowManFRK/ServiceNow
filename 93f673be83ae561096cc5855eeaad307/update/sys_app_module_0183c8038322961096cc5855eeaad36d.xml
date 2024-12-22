@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="CICD">f0c340438322961096cc5855eeaad349</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Deployment Logs</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_601332_cicd_logs</name>
+        <order/>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <require_confirmation>true</require_confirmation>
+        <roles>admin</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-22 15:12:57</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0183c8038322961096cc5855eeaad36d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Deployment Logs</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="CICD Pipeline" source="x_601332_cicd">93f673be83ae561096cc5855eeaad307</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CICD Pipeline">93f673be83ae561096cc5855eeaad307</sys_scope>
+        <sys_update_name>sys_app_module_0183c8038322961096cc5855eeaad36d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-22 15:15:21</sys_updated_on>
+        <timeline_page/>
+        <title>Deployment Logs</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+</record_update>

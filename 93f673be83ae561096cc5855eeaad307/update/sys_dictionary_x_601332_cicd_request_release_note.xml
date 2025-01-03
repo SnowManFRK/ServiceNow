@@ -1,19 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="type" table="x_601332_cicd_logs">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="release_note" table="x_601332_cicd_request">
         <active>true</active>
         <array>false</array>
-        <attributes/>
+        <attributes>edge_encryption_enabled=true</attributes>
         <audit>false</audit>
-        <calculation><![CDATA[(function calculatedFieldValue(current) {
-
-	// Add your code here
-	return '';  // return the calculated value
-
-})(current);]]></calculation>
-        <choice>1</choice>
+        <calculation/>
+        <choice>0</choice>
         <choice_field/>
         <choice_table/>
-        <column_label>Type</column_label>
+        <column_label>Release Note</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -26,16 +21,16 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>type</element>
+        <element>release_note</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <formula/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="Choice">choice</internal_type>
+        <internal_type display_value="String">string</internal_type>
         <mandatory>false</mandatory>
-        <max_length>40</max_length>
-        <name>x_601332_cicd_logs</name>
+        <max_length>4000</max_length>
+        <name>x_601332_cicd_request</name>
         <next_element/>
         <primary>false</primary>
         <read_only>false</read_only>
@@ -51,15 +46,15 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-12-22 15:12:56</sys_created_on>
-        <sys_id>1b72400f83ee561096cc5855eeaad32d</sys_id>
-        <sys_name>Type</sys_name>
+        <sys_created_on>2024-12-31 05:17:32</sys_created_on>
+        <sys_id>078154f183b2521096cc5855eeaad327</sys_id>
+        <sys_name>Release Note</sys_name>
         <sys_package display_value="CICD Pipeline" source="x_601332_cicd">93f673be83ae561096cc5855eeaad307</sys_package>
         <sys_policy/>
         <sys_scope display_value="CICD Pipeline">93f673be83ae561096cc5855eeaad307</sys_scope>
-        <sys_update_name>sys_dictionary_x_601332_cicd_logs_type</sys_update_name>
+        <sys_update_name>sys_dictionary_x_601332_cicd_request_release_note</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-12-22 15:12:56</sys_updated_on>
+        <sys_updated_on>2024-12-31 05:17:32</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_formatter">
+    <sys_ui_formatter action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <angular_module/>
+        <formatter>diff_color_info.xml</formatter>
+        <name>Diffing Display Color Information</name>
+        <seismic_component/>
+        <sys_class_name>sys_ui_formatter</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-31 11:33:57</sys_created_on>
+        <sys_id>31976dbd833a521096cc5855eeaad363</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Diffing Display Color Information</sys_name>
+        <sys_package display_value="CICD Pipeline" source="x_601332_cicd">93f673be83ae561096cc5855eeaad307</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CICD Pipeline">93f673be83ae561096cc5855eeaad307</sys_scope>
+        <sys_update_name>sys_ui_formatter_31976dbd833a521096cc5855eeaad363</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-31 11:33:57</sys_updated_on>
+        <table>x_601332_cicd_logs</table>
+        <type>formatter</type>
+    </sys_ui_formatter>
+</record_update>

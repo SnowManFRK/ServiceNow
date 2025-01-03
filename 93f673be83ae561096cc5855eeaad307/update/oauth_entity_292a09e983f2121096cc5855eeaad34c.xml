@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="oauth_entity">
+    <oauth_entity action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <access_token_lifespan>1800</access_token_lifespan>
+        <active>true</active>
+        <auth_code_lifespan>0</auth_code_lifespan>
+        <auth_url>https://dev229906.service-now.com/</auth_url>
+        <certificate_url/>
+        <client_id>0c2603551ba34cb1aacf1307c557a2a4</client_id>
+        <client_secret>﷞﷟﷒509a5b6183e2121096cc5855eeaad3d8﷬﷔1﷬﷭-BnM_nvtD9h4o9GbuP8nYw==0h0y4DyOotBqoGiBlbkWpFqu-JweVKsNI2E=﷮﷯</client_secret>
+        <client_type/>
+        <client_uuid>e52a09e983f2121096cc5855eeaad34c</client_uuid>
+        <code_challenge_method>S256</code_challenge_method>
+        <comments/>
+        <default_grant_type>authorization_code</default_grant_type>
+        <id_token_lifespan>0</id_token_lifespan>
+        <jwt_provider/>
+        <login_url/>
+        <logo_url/>
+        <message_signature_lifespan>0</message_signature_lifespan>
+        <mobile_client>false</mobile_client>
+        <name>CICD-dev229906</name>
+        <oauth_api_script/>
+        <protocol_name/>
+        <public_client>false</public_client>
+        <redirect_url/>
+        <refresh_token_lifespan>8640000</refresh_token_lifespan>
+        <refresh_token_url/>
+        <restricted_binding>false</restricted_binding>
+        <revoke_token_url/>
+        <salt>0</salt>
+        <send_client_credentials_as>request_body_parameter</send_client_credentials_as>
+        <skip_authorize>false</skip_authorize>
+        <sys_class_name>oauth_entity</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-30 14:48:23</sys_created_on>
+        <sys_id>292a09e983f2121096cc5855eeaad34c</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>CICD-dev229906</sys_name>
+        <sys_package display_value="CICD Pipeline" source="x_601332_cicd">93f673be83ae561096cc5855eeaad307</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CICD Pipeline">93f673be83ae561096cc5855eeaad307</sys_scope>
+        <sys_update_name>oauth_entity_292a09e983f2121096cc5855eeaad34c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-30 15:09:01</sys_updated_on>
+        <token_url>https://dev229906.service-now.com/</token_url>
+        <type>oauth_provider</type>
+        <use_mutual_auth>false</use_mutual_auth>
+        <user/>
+    </oauth_entity>
+</record_update>

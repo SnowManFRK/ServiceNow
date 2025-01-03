@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="target_instance" label="Target Instance" language="en" table="x_601332_cicd_tasks">
+    <sys_documentation element="" label="Environment" language="en" table="x_601332_cicd_environment">
         <sys_documentation action="INSERT_OR_UPDATE">
-            <element>target_instance</element>
+            <element/>
             <help/>
             <hint/>
-            <label>Target Instance</label>
+            <label>Environment</label>
             <language>en</language>
-            <name>x_601332_cicd_tasks</name>
-            <plural>Target Instances</plural>
+            <name>x_601332_cicd_environment</name>
+            <plural>Environments</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-12-22 14:55:41</sys_created_on>
-            <sys_id>909f333e83ee561096cc5855eeaad3ce</sys_id>
+            <sys_created_on>2024-12-30 14:12:36</sys_created_on>
+            <sys_id>5f6205ed83b2121096cc5855eeaad381</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name>Target Instance</sys_name>
+            <sys_name>Environment</sys_name>
             <sys_package display_value="CICD Pipeline" source="x_601332_cicd">93f673be83ae561096cc5855eeaad307</sys_package>
             <sys_policy/>
             <sys_scope display_value="CICD Pipeline">93f673be83ae561096cc5855eeaad307</sys_scope>
-            <sys_update_name>sys_documentation_x_601332_cicd_tasks_target_instance_en</sys_update_name>
+            <sys_update_name>sys_documentation_x_601332_cicd_environment__en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-12-22 14:55:41</sys_updated_on>
+            <sys_updated_on>2024-12-30 14:12:36</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

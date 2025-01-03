@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="type" label="Type" language="en" table="x_601332_cicd_logs">
+    <sys_documentation element="disposition" label="Disposition" language="en" table="x_601332_cicd_logs">
         <sys_documentation action="INSERT_OR_UPDATE">
-            <element>type</element>
+            <element>disposition</element>
             <help/>
             <hint/>
-            <label>Type</label>
+            <label>Disposition</label>
             <language>en</language>
             <name>x_601332_cicd_logs</name>
-            <plural>Types</plural>
+            <plural>Dispositions</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-12-22 15:12:57</sys_created_on>
-            <sys_id>1d83c8038322961096cc5855eeaad3a0</sys_id>
+            <sys_created_on>2024-12-31 10:34:31</sys_created_on>
+            <sys_id>921a51bd83f6521096cc5855eeaad3bf</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name>Type</sys_name>
+            <sys_name>Disposition</sys_name>
             <sys_package display_value="CICD Pipeline" source="x_601332_cicd">93f673be83ae561096cc5855eeaad307</sys_package>
             <sys_policy/>
             <sys_scope display_value="CICD Pipeline">93f673be83ae561096cc5855eeaad307</sys_scope>
-            <sys_update_name>sys_documentation_x_601332_cicd_logs_type_en</sys_update_name>
+            <sys_update_name>sys_documentation_x_601332_cicd_logs_disposition_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-12-22 15:12:57</sys_updated_on>
+            <sys_updated_on>2024-12-31 10:34:31</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

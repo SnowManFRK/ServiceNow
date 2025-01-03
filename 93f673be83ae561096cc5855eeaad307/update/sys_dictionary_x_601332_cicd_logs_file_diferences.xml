@@ -1,19 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="target_instance" table="x_601332_cicd_tasks">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="file_diferences" table="x_601332_cicd_logs">
         <active>true</active>
         <array>false</array>
-        <attributes/>
+        <attributes>full_screen=true</attributes>
         <audit>false</audit>
-        <calculation><![CDATA[(function calculatedFieldValue(current) {
-
-	// Add your code here
-	return '';  // return the calculated value
-
-})(current);]]></calculation>
+        <calculation/>
         <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>Target Instance</column_label>
+        <column_label>File Diferences</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -26,19 +21,19 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>target_instance</element>
+        <element>file_diferences</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <formula/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="String">string</internal_type>
+        <internal_type display_value="HTML">html</internal_type>
         <mandatory>false</mandatory>
-        <max_length>40</max_length>
-        <name>x_601332_cicd_tasks</name>
+        <max_length>65536</max_length>
+        <name>x_601332_cicd_logs</name>
         <next_element/>
         <primary>false</primary>
-        <read_only>false</read_only>
+        <read_only>true</read_only>
         <read_roles/>
         <reference/>
         <reference_cascade_rule/>
@@ -51,15 +46,15 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-12-22 14:55:40</sys_created_on>
-        <sys_id>78cd33f283ee561096cc5855eeaad3eb</sys_id>
-        <sys_name>Target Instance</sys_name>
+        <sys_created_on>2024-12-31 10:34:31</sys_created_on>
+        <sys_id>121a51bd83f6521096cc5855eeaad3c1</sys_id>
+        <sys_name>File Diferences</sys_name>
         <sys_package display_value="CICD Pipeline" source="x_601332_cicd">93f673be83ae561096cc5855eeaad307</sys_package>
         <sys_policy/>
         <sys_scope display_value="CICD Pipeline">93f673be83ae561096cc5855eeaad307</sys_scope>
-        <sys_update_name>sys_dictionary_x_601332_cicd_tasks_target_instance</sys_update_name>
+        <sys_update_name>sys_dictionary_x_601332_cicd_logs_file_diferences</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-12-22 14:55:40</sys_updated_on>
+        <sys_updated_on>2024-12-31 11:24:47</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

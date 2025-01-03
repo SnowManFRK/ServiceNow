@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="INSERT_OR_UPDATE">
+        <action_name/>
+        <active>true</active>
+        <client>false</client>
+        <client_script_v2><![CDATA[function onClick(g_form) {
+
+}]]></client_script_v2>
+        <comments/>
+        <condition>current.state=='Previewed'</condition>
+        <form_action>true</form_action>
+        <form_button>true</form_button>
+        <form_button_v2>false</form_button_v2>
+        <form_context_menu>false</form_context_menu>
+        <form_link>false</form_link>
+        <form_menu_button_v2>false</form_menu_button_v2>
+        <form_style/>
+        <format_for_configurable_workspace>false</format_for_configurable_workspace>
+        <hint/>
+        <isolate_script>false</isolate_script>
+        <list_action>false</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style/>
+        <messages/>
+        <name>Commit</name>
+        <onclick/>
+        <order>100</order>
+        <script><![CDATA[var inputs = {};
+inputs['deploymenttask'] = current; // GlideRecord of table: x_601332_cicd_tasks 
+inputs['action'] = 'commit'; // String 
+inputs['query'] ='remote_set_id='+current.remote_set_sys_id; // String 
+
+// Execute Synchronously: Run in foreground. Code snippet has access to outputs.
+var result = sn_fd.FlowAPI.getRunner().action('x_601332_cicd.trigger_deployment_request').inForeground().withInputs(inputs).run();
+var outputs = result.getOutputs();
+
+var status = outputs['status']; // String
+var remoteLocalUpdateSetId= outputs['localupdatesetid']; // String
+	
+	if(status==200){
+	gs.addInfoMessage('Update set has been committed in remote instance');
+	current.notes='Update set has been committed in remote instance';
+	current.state='Committed';
+	current.committed=new GlideDateTime();
+	current.remote_local_update_set_sys_id=remoteLocalUpdateSetId;
+	current.update();
+	}
+	
+action.setRedirectURL(current);]]></script>
+        <show_insert>false</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-01 15:06:23</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e6e123c283f2d21096cc5855eeaad399</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>Commit</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="CICD Pipeline" source="x_601332_cicd">93f673be83ae561096cc5855eeaad307</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CICD Pipeline">93f673be83ae561096cc5855eeaad307</sys_scope>
+        <sys_update_name>sys_ui_action_e6e123c283f2d21096cc5855eeaad399</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-03 15:36:54</sys_updated_on>
+        <table>x_601332_cicd_tasks</table>
+        <ui11_compatible>true</ui11_compatible>
+        <ui16_compatible>false</ui16_compatible>
+    </sys_ui_action>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>e6e123c283f2d21096cc5855eeaad399</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-01 15:24:51</sys_created_on>
+        <sys_id>8926eb028376d21096cc5855eeaad3ce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-01 15:24:51</sys_updated_on>
+        <table>sys_ui_action</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

@@ -13,7 +13,7 @@
         <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>Deployment Request</column_label>
+        <column_label>Deployment Pack</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -40,7 +40,7 @@
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
-        <reference display_value="" name="x_601332_cicd_request">x_601332_cicd_request</reference>
+        <reference display_value="" name="x_601332_cicd_deployment_pack">x_601332_cicd_deployment_pack</reference>
         <reference_cascade_rule/>
         <reference_floats>false</reference_floats>
         <reference_key/>
@@ -53,13 +53,13 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-12-22 14:55:39</sys_created_on>
         <sys_id>8ddc37f683ee561096cc5855eeaad376</sys_id>
-        <sys_name>Deployment Request</sys_name>
+        <sys_name>Deployment Pack</sys_name>
         <sys_package display_value="CICD Pipeline" source="x_601332_cicd">93f673be83ae561096cc5855eeaad307</sys_package>
         <sys_policy/>
         <sys_scope display_value="CICD Pipeline">93f673be83ae561096cc5855eeaad307</sys_scope>
         <sys_update_name>sys_dictionary_x_601332_cicd_tasks_deployment_request</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-01 15:22:47</sys_updated_on>
+        <sys_updated_on>2025-01-19 15:58:58</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

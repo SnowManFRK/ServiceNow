@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_601332_cicd.CICDClientSideUtils</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>CICDClientSideUtils</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var CICDClientSideUtils = Class.create();
+CICDClientSideUtils.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+
+
+    createDeployementTask: function() {
+        // Get the parameters from the client script
+        var environmentId = this.getParameter('sysparm_environment_id');
+        var localUpdateSetId = this.getParameter('sysparm_local_update_set_id');
+        var reqId = this.getParameter('sysparm_req_id');
+		var automatedDeployment = this.getParameter('sysparm_automate_deploy');
+
+        var grPack = new GlideRecord('x_601332_cicd_deployment_pack');
+        grPack.newRecord();
+       // grPack.target_instance = environmentId;
+		grPack.added_instance=environmentId;
+        grPack.deployment_request = reqId;
+        grPack.update_set = localUpdateSetId;
+		grPack.automated_deployment = automatedDeployment;
+        grPack.insert();
+		
+        return true;
+    },
+
+
+    // var updateSetArr = localUpdateSetId.split(',');
+    //   for (var x = 0; x < updateSetArr.length; x++) {
+    //         var grDepTask = new GlideRecord('x_601332_cicd_tasks');
+    //         grDepTask.newRecord();
+    //         grDepTask.target_environment = environmentId;
+    // 		grDepTask.deployment_request=reqId;
+    //         grDepTask.update_set = updateSetArr[x];
+    //         grDepTask.insert();
+    //     }
+
+    type: 'CICDClientSideUtils'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-18 15:40:47</sys_created_on>
+        <sys_id>5c8cc3af8307961096cc5855eeaad371</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>CICDClientSideUtils</sys_name>
+        <sys_package display_value="CICD Pipeline" source="x_601332_cicd">93f673be83ae561096cc5855eeaad307</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="CICD Pipeline">93f673be83ae561096cc5855eeaad307</sys_scope>
+        <sys_update_name>sys_script_include_5c8cc3af8307961096cc5855eeaad371</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-23 15:15:28</sys_updated_on>
+    </sys_script_include>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>5c8cc3af8307961096cc5855eeaad371</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-18 15:40:46</sys_created_on>
+        <sys_id>0cdccf6f8307961096cc5855eeaad3f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-18 15:40:46</sys_updated_on>
+        <table>sys_script_include</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

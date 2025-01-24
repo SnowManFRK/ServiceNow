@@ -5,7 +5,7 @@
         <attributes>no_sort=true,slushbucket_ref_no_expand=true</attributes>
         <audit>false</audit>
         <calculation/>
-        <choice>0</choice>
+        <choice/>
         <choice_field/>
         <choice_table/>
         <column_label>Target Environments</column_label>
@@ -28,7 +28,7 @@
         <function_definition/>
         <function_field>false</function_field>
         <internal_type display_value="">glide_list</internal_type>
-        <mandatory>false</mandatory>
+        <mandatory>true</mandatory>
         <max_length>1024</max_length>
         <name>x_601332_cicd_request</name>
         <next_element/>
@@ -54,7 +54,7 @@
         <sys_scope display_value="CICD Pipeline">93f673be83ae561096cc5855eeaad307</sys_scope>
         <sys_update_name>sys_dictionary_x_601332_cicd_request_target_environments</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-12-31 06:13:19</sys_updated_on>
+        <sys_updated_on>2025-01-09 13:30:18</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

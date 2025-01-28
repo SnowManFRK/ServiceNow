@@ -1,0 +1,5 @@
+ // Declaration of a function
+2. function greetUser() {
+3.     // Display a greeting message on console
+4.     console.log("Hello, welcome to JavaScript world!");
+5. }

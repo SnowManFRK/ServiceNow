@@ -54,6 +54,9 @@
 
 			var grTask = current.task.getRefRecord();
 			grTask.collision=parseInt(grTask.collision-1);
+			if(grTask.collision==0){
+			grTask.state='Previewed';	
+			}
 			grTask.update();
         }
 
@@ -69,7 +72,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>aaf156b1833e521096cc5855eeaad376</sys_id>
-        <sys_mod_count>17</sys_mod_count>
+        <sys_mod_count>19</sys_mod_count>
         <sys_name>Accept/Skip Remote update</sys_name>
         <sys_overrides/>
         <sys_package display_value="CICD Pipeline" source="x_601332_cicd">93f673be83ae561096cc5855eeaad307</sys_package>
@@ -77,7 +80,7 @@
         <sys_scope display_value="CICD Pipeline">93f673be83ae561096cc5855eeaad307</sys_scope>
         <sys_update_name>sys_script_aaf156b1833e521096cc5855eeaad376</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-09 14:31:58</sys_updated_on>
+        <sys_updated_on>2025-01-25 13:32:44</sys_updated_on>
         <template/>
         <when>async_always</when>
     </sys_script>

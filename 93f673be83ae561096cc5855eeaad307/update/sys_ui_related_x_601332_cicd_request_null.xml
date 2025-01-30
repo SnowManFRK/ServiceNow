@@ -2,59 +2,45 @@
     <sys_ui_related sys_domain="global" table="x_601332_cicd_request" version="2" view="">
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
-            <list_id display_value="Deployment Request - Default view" name="x_601332_cicd_request" related_list="NULL" sys_domain="global" view="Default view">ff1a9444835fd61096cc5855eeaad3bd</list_id>
+            <list_id display_value="Deployment Request - Default view" name="x_601332_cicd_request" related_list="NULL" sys_domain="global" view="Default view">dcc0b92983d3de1096cc5855eeaad3f5</list_id>
             <order_by/>
             <position>0</position>
             <related_list>REL:de18587983b2521096cc5855eeaad375</related_list>
             <sys_class_name>sys_ui_related_list_entry</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-01-19 15:57:01</sys_created_on>
-            <sys_id>842a9444835fd61096cc5855eeaad3bf</sys_id>
+            <sys_created_on>2025-01-24 14:06:24</sys_created_on>
+            <sys_id>98c0b92983d3de1096cc5855eeaad3f6</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-01-19 15:57:01</sys_updated_on>
+            <sys_updated_on>2025-01-24 14:06:24</sys_updated_on>
         </sys_ui_related_list_entry>
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
-            <list_id display_value="Deployment Request - Default view" name="x_601332_cicd_request" related_list="NULL" sys_domain="global" view="Default view">ff1a9444835fd61096cc5855eeaad3bd</list_id>
+            <list_id display_value="Deployment Request - Default view" name="x_601332_cicd_request" related_list="NULL" sys_domain="global" view="Default view">dcc0b92983d3de1096cc5855eeaad3f5</list_id>
             <order_by/>
             <position>1</position>
             <related_list>x_601332_cicd_deployment_pack.deployment_request</related_list>
             <sys_class_name>sys_ui_related_list_entry</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-01-19 15:57:01</sys_created_on>
-            <sys_id>cc2a9444835fd61096cc5855eeaad3bf</sys_id>
+            <sys_created_on>2025-01-24 14:06:24</sys_created_on>
+            <sys_id>9cc0b92983d3de1096cc5855eeaad3f6</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-01-19 15:57:01</sys_updated_on>
+            <sys_updated_on>2025-01-24 14:06:24</sys_updated_on>
         </sys_ui_related_list_entry>
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
-            <list_id display_value="Deployment Request - Default view" name="x_601332_cicd_request" related_list="NULL" sys_domain="global" view="Default view">ff1a9444835fd61096cc5855eeaad3bd</list_id>
+            <list_id display_value="Deployment Request - Default view" name="x_601332_cicd_request" related_list="NULL" sys_domain="global" view="Default view">dcc0b92983d3de1096cc5855eeaad3f5</list_id>
             <order_by/>
             <position>2</position>
-            <related_list>x_601332_cicd_tasks.deployment_request</related_list>
+            <related_list>REL:327fad6583d3de1096cc5855eeaad392</related_list>
             <sys_class_name>sys_ui_related_list_entry</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-01-19 15:57:01</sys_created_on>
-            <sys_id>c02a9444835fd61096cc5855eeaad3c0</sys_id>
+            <sys_created_on>2025-01-24 14:06:24</sys_created_on>
+            <sys_id>90c0b92983d3de1096cc5855eeaad3f7</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-01-19 15:57:01</sys_updated_on>
-        </sys_ui_related_list_entry>
-        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
-            <filter/>
-            <list_id display_value="Deployment Request - Default view" name="x_601332_cicd_request" related_list="NULL" sys_domain="global" view="Default view">ff1a9444835fd61096cc5855eeaad3bd</list_id>
-            <order_by/>
-            <position>3</position>
-            <related_list>x_601332_cicd_logs.request</related_list>
-            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-01-19 15:57:01</sys_created_on>
-            <sys_id>c42a9444835fd61096cc5855eeaad3c0</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-01-19 15:57:01</sys_updated_on>
+            <sys_updated_on>2025-01-24 14:06:24</sys_updated_on>
         </sys_ui_related_list_entry>
         <sys_ui_related_list action="INSERT_OR_UPDATE">
             <calculated_name>Deployment Request - Default view</calculated_name>
@@ -65,10 +51,10 @@
             <related_list/>
             <sys_class_name>sys_ui_related_list</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-01-19 15:57:01</sys_created_on>
+            <sys_created_on>2025-01-24 14:06:24</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>ff1a9444835fd61096cc5855eeaad3bd</sys_id>
+            <sys_id>dcc0b92983d3de1096cc5855eeaad3f5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>Deployment Request - Default view</sys_name>
             <sys_package display_value="CICD Pipeline" source="x_601332_cicd">93f673be83ae561096cc5855eeaad307</sys_package>
@@ -76,7 +62,7 @@
             <sys_scope display_value="CICD Pipeline">93f673be83ae561096cc5855eeaad307</sys_scope>
             <sys_update_name>sys_ui_related_x_601332_cicd_request_null</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-01-19 15:57:01</sys_updated_on>
+            <sys_updated_on>2025-01-24 14:06:24</sys_updated_on>
             <sys_user/>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>

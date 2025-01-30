@@ -1,116 +1,172 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_section caption="" section_id="d537904c831fd61096cc5855eeaad31e" sys_domain="global" table="x_601332_cicd_deployment_pack" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>number</element>
+            <element>.begin_split</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-01-23 15:10:08</sys_created_on>
-            <sys_id>0cc5fc19831f5e1096cc5855eeaad32c</sys_id>
+            <sys_created_on>2025-01-25 14:42:48</sys_created_on>
+            <sys_id>d7a243bd831f125096cc5855eeaad3ed</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_601332_cicd_deployment_pack" sys_domain="global" view="Default view">d537904c831fd61096cc5855eeaad31e</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-01-23 15:10:08</sys_updated_on>
+            <sys_updated_on>2025-01-25 14:42:48</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-25 14:42:48</sys_created_on>
+            <sys_id>93a243bd831f125096cc5855eeaad3ee</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_601332_cicd_deployment_pack" sys_domain="global" view="Default view">d537904c831fd61096cc5855eeaad31e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-25 14:42:48</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>deployment_request</element>
-            <position>1</position>
+            <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-01-23 15:10:08</sys_created_on>
-            <sys_id>08c5fc19831f5e1096cc5855eeaad32d</sys_id>
+            <sys_created_on>2025-01-25 14:42:48</sys_created_on>
+            <sys_id>1ba243bd831f125096cc5855eeaad3ee</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_601332_cicd_deployment_pack" sys_domain="global" view="Default view">d537904c831fd61096cc5855eeaad31e</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-01-23 15:10:08</sys_updated_on>
+            <sys_updated_on>2025-01-25 14:42:48</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>target_instance</element>
-            <position>2</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-01-23 15:10:08</sys_created_on>
-            <sys_id>8cc5fc19831f5e1096cc5855eeaad32d</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_601332_cicd_deployment_pack" sys_domain="global" view="Default view">d537904c831fd61096cc5855eeaad31e</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-01-23 15:10:08</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>.split</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-01-23 15:10:08</sys_created_on>
-            <sys_id>04c5fc19831f5e1096cc5855eeaad32e</sys_id>
+            <sys_created_on>2025-01-25 14:42:48</sys_created_on>
+            <sys_id>9fa243bd831f125096cc5855eeaad3ee</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_601332_cicd_deployment_pack" sys_domain="global" view="Default view">d537904c831fd61096cc5855eeaad31e</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-01-23 15:10:08</sys_updated_on>
-            <sys_user/>
-            <type>.split</type>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>state</element>
-            <position>4</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-01-23 15:10:08</sys_created_on>
-            <sys_id>88c5fc19831f5e1096cc5855eeaad32e</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_601332_cicd_deployment_pack" sys_domain="global" view="Default view">d537904c831fd61096cc5855eeaad31e</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-01-23 15:10:08</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>update_set</element>
-            <position>5</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-01-23 15:10:08</sys_created_on>
-            <sys_id>00c5fc19831f5e1096cc5855eeaad32f</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_601332_cicd_deployment_pack" sys_domain="global" view="Default view">d537904c831fd61096cc5855eeaad31e</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-01-23 15:10:08</sys_updated_on>
+            <sys_updated_on>2025-01-25 14:42:48</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>added_instance</element>
-            <position>6</position>
+            <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-01-23 15:10:08</sys_created_on>
-            <sys_id>84c5fc19831f5e1096cc5855eeaad32f</sys_id>
+            <sys_created_on>2025-01-25 14:42:48</sys_created_on>
+            <sys_id>17a243bd831f125096cc5855eeaad3ef</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_601332_cicd_deployment_pack" sys_domain="global" view="Default view">d537904c831fd61096cc5855eeaad31e</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-01-23 15:10:08</sys_updated_on>
+            <sys_updated_on>2025-01-25 14:42:48</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-25 14:42:48</sys_created_on>
+            <sys_id>93a28bbd831f125096cc5855eeaad3e0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_601332_cicd_deployment_pack" sys_domain="global" view="Default view">d537904c831fd61096cc5855eeaad31e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-25 14:42:48</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-25 14:42:48</sys_created_on>
+            <sys_id>1ba28bbd831f125096cc5855eeaad3e0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_601332_cicd_deployment_pack" sys_domain="global" view="Default view">d537904c831fd61096cc5855eeaad31e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-25 14:42:48</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>update_set</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-25 14:42:48</sys_created_on>
+            <sys_id>9fa28bbd831f125096cc5855eeaad3e0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_601332_cicd_deployment_pack" sys_domain="global" view="Default view">d537904c831fd61096cc5855eeaad31e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-25 14:42:48</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>automated_deployment</element>
-            <position>7</position>
+            <position>8</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-01-23 15:10:08</sys_created_on>
-            <sys_id>0cc5fc19831f5e1096cc5855eeaad32f</sys_id>
+            <sys_created_on>2025-01-25 14:42:48</sys_created_on>
+            <sys_id>17a28bbd831f125096cc5855eeaad3e1</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_601332_cicd_deployment_pack" sys_domain="global" view="Default view">d537904c831fd61096cc5855eeaad31e</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-01-23 15:10:08</sys_updated_on>
+            <sys_updated_on>2025-01-25 14:42:48</sys_updated_on>
             <sys_user/>
             <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-25 14:42:48</sys_created_on>
+            <sys_id>9ba28bbd831f125096cc5855eeaad3e1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_601332_cicd_deployment_pack" sys_domain="global" view="Default view">d537904c831fd61096cc5855eeaad31e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-25 14:42:48</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>notes</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-25 14:42:48</sys_created_on>
+            <sys_id>13a28bbd831f125096cc5855eeaad3e2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_601332_cicd_deployment_pack" sys_domain="global" view="Default view">d537904c831fd61096cc5855eeaad31e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-25 14:42:48</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>activity.xml</element>
+            <position>11</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-25 14:42:48</sys_created_on>
+            <sys_id>97a28bbd831f125096cc5855eeaad3e2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="Activities (filtered)">444ea5c6bf310100e628555b3f0739d6</sys_ui_formatter>
+            <sys_ui_section caption="NULL" display_value="" name="x_601332_cicd_deployment_pack" sys_domain="global" view="Default view">d537904c831fd61096cc5855eeaad31e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-25 14:42:48</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
         </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption/>

@@ -31,7 +31,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>5d7b51bd83f6521096cc5855eeaad39b</sys_id>
-        <sys_mod_count>19</sys_mod_count>
+        <sys_mod_count>24</sys_mod_count>
         <sys_name>GetProblems</sys_name>
         <sys_overrides/>
         <sys_package display_value="CICD Pipeline" source="x_601332_cicd">93f673be83ae561096cc5855eeaad307</sys_package>
@@ -39,7 +39,7 @@
         <sys_scope display_value="CICD Pipeline">93f673be83ae561096cc5855eeaad307</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_5d7b51bd83f6521096cc5855eeaad39b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-12-31 13:48:47</sys_updated_on>
+        <sys_updated_on>2025-01-26 05:11:19</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -128,10 +128,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-12-31 10:51:47</sys_created_on>
         <sys_id>1b0eddb1833a521096cc5855eeaad395</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="CICD Pipeline">93f673be83ae561096cc5855eeaad307</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-12-31 13:48:36</sys_updated_on>
+        <sys_updated_on>2025-01-26 05:11:13</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=1b0eddb1833a521096cc5855eeaad395"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -142,9 +142,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-12-31 10:51:47</sys_created_on>
         <sys_id>270eddb1833a521096cc5855eeaad3a8</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-12-31 13:48:36</sys_updated_on>
+        <sys_updated_on>2025-01-26 05:11:13</sys_updated_on>
         <value>(function execute(inputs, outputs) {&#13;
 &#13;
 var request = new sn_ws.RESTMessageV2();&#13;
@@ -168,6 +168,7 @@ resultArray.forEach(function(record) {&#13;
     gr.setValue('disposition', record.disposition);&#13;
     gr.setValue('item',record.remote_update);&#13;
     gr.setValue('file_diferences', record.payload);&#13;
+    gr.setValue('update_set', record.update_set_name);&#13;
     record.probelmSysID?gr.setValue('problem_id', record.probelmSysID):'';&#13;
     gr.description=record.description?record.description:'No issue found';&#13;
     gr.setValue('task',inputs.task_id);&#13;
@@ -943,14 +944,14 @@ outputs.response=body;&#13;
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-12-31 10:51:47</sys_created_on>
         <sys_id>a30eddb1833a521096cc5855eeaad3b0</sys_id>
-        <sys_mod_count>21</sys_mod_count>
+        <sys_mod_count>25</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="CICD Pipeline">93f673be83ae561096cc5855eeaad307</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-12-31 13:48:46</sys_updated_on>
+        <sys_updated_on>2025-01-26 05:11:18</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1077,17 +1078,17 @@ outputs.response=body;&#13;
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
         <action_id display_value="GetProblems">5d7b51bd83f6521096cc5855eeaad39b</action_id>
         <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"26d04e3d83ba521096cc5855eeaad3b7","name":"plan","plan_signature":null}}</plan>
-        <snapshot>6ad04e3d83ba521096cc5855eeaad392</snapshot>
+        <snapshot>cc96863583fa521096cc5855eeaad37e</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-12-31 13:23:50</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>26d04e3d83ba521096cc5855eeaad3b7</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-12-31 13:23:50</sys_updated_on>
+        <sys_updated_on>2024-12-31 13:48:47</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -1214,10 +1215,10 @@ outputs.response=body;&#13;
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-12-31 13:23:49</sys_created_on>
         <sys_id>96d04e3d83ba521096cc5855eeaad365</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_scope display_value="CICD Pipeline">93f673be83ae561096cc5855eeaad307</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-12-31 13:48:47</sys_updated_on>
+        <sys_updated_on>2025-01-26 05:11:19</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=96d04e3d83ba521096cc5855eeaad365"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -1228,9 +1229,9 @@ outputs.response=body;&#13;
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-12-31 13:23:49</sys_created_on>
         <sys_id>a2d04e3d83ba521096cc5855eeaad37c</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-12-31 13:48:47</sys_updated_on>
+        <sys_updated_on>2025-01-26 05:11:19</sys_updated_on>
         <value>(function execute(inputs, outputs) {&#13;
 &#13;
 var request = new sn_ws.RESTMessageV2();&#13;
@@ -1254,6 +1255,7 @@ resultArray.forEach(function(record) {&#13;
     gr.setValue('disposition', record.disposition);&#13;
     gr.setValue('item',record.remote_update);&#13;
     gr.setValue('file_diferences', record.payload);&#13;
+    gr.setValue('update_set', record.update_set_name);&#13;
     record.probelmSysID?gr.setValue('problem_id', record.probelmSysID):'';&#13;
     gr.description=record.description?record.description:'No issue found';&#13;
     gr.setValue('task',inputs.task_id);&#13;
@@ -1855,14 +1857,14 @@ outputs.response=body;&#13;
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-12-31 13:23:49</sys_created_on>
         <sys_id>26d04e3d83ba521096cc5855eeaad387</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="CICD Pipeline">93f673be83ae561096cc5855eeaad307</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-12-31 13:48:47</sys_updated_on>
+        <sys_updated_on>2025-01-26 05:11:19</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

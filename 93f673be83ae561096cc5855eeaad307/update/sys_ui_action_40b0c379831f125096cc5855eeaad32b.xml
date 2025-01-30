@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
     <sys_ui_action action="INSERT_OR_UPDATE">
-        <action_name/>
+        <action_name>UpdateInstance</action_name>
         <active>true</active>
-        <client>false</client>
+        <client>true</client>
         <client_script_v2><![CDATA[function onClick(g_form) {
 
 }]]></client_script_v2>
         <comments/>
-        <condition>current.state=='Previewed'</condition>
+        <condition>current.state=='Complete'</condition>
         <form_action>true</form_action>
         <form_button>true</form_button>
         <form_button_v2>false</form_button_v2>
@@ -17,7 +17,7 @@
         <form_style/>
         <format_for_configurable_workspace>false</format_for_configurable_workspace>
         <hint/>
-        <isolate_script>false</isolate_script>
+        <isolate_script>true</isolate_script>
         <list_action>false</list_action>
         <list_banner_button>false</list_banner_button>
         <list_button>false</list_button>
@@ -27,60 +27,49 @@
         <list_save_with_form_button>false</list_save_with_form_button>
         <list_style/>
         <messages/>
-        <name>Preview Again</name>
-        <onclick/>
+        <name>Deploy Update Set</name>
+        <onclick>deployUpdateSet()</onclick>
         <order>100</order>
-        <script><![CDATA[var inputs = {};
-inputs['current'] = current; // GlideRecord of table:  
+        <script><![CDATA[function deployUpdateSet() {
+    var selectGroup = new GlideDialogWindow("x_601332_cicd_UpdateInstance");
+	selectGroup.removeCloseDecoration();
+    selectGroup.setTitle(""); // Set the dialog title
+    selectGroup.render();
+}
 
-inputs['table_name'] = 'x_601332_cicd_tasks';
-
-// Start Asynchronously: Uncomment to run in background.
-// sn_fd.FlowAPI.getRunner().flow('x_601332_cicd.trigger_deployment_api').inBackground().withInputs(inputs).run();
-
-// Execute Synchronously: Run in foreground.
-sn_fd.FlowAPI.getRunner().flow('x_601332_cicd.trigger_deployment_api').inForeground().withInputs(inputs).run();
-
-
-// if(status==200){
-// gs.addInfoMessage('Update set has been previewed again in remote instance');
-// current.notes='Update set has been previewed again in remote instance';
-// current.update();
-// }
-
-action.setRedirectURL(current);]]></script>
+]]></script>
         <show_insert>false</show_insert>
         <show_multiple_update>false</show_multiple_update>
         <show_query>false</show_query>
         <show_update>true</show_update>
         <sys_class_name>sys_ui_action</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-01-01 15:26:17</sys_created_on>
+        <sys_created_on>2025-01-25 14:34:07</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>d676a3028376d21096cc5855eeaad36c</sys_id>
-        <sys_mod_count>16</sys_mod_count>
-        <sys_name>Preview Again</sys_name>
+        <sys_id>40b0c379831f125096cc5855eeaad32b</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Deploy Update Set</sys_name>
         <sys_overrides/>
         <sys_package display_value="CICD Pipeline" source="x_601332_cicd">93f673be83ae561096cc5855eeaad307</sys_package>
         <sys_policy/>
         <sys_scope display_value="CICD Pipeline">93f673be83ae561096cc5855eeaad307</sys_scope>
-        <sys_update_name>sys_ui_action_d676a3028376d21096cc5855eeaad36c</sys_update_name>
+        <sys_update_name>sys_ui_action_40b0c379831f125096cc5855eeaad32b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-24 18:21:42</sys_updated_on>
-        <table>x_601332_cicd_tasks</table>
+        <sys_updated_on>2025-01-26 18:16:15</sys_updated_on>
+        <table>x_601332_cicd_deployment_pack</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>
     </sys_ui_action>
     <sys_es_latest_script action="INSERT_OR_UPDATE">
-        <id>d676a3028376d21096cc5855eeaad36c</id>
+        <id>40b0c379831f125096cc5855eeaad32b</id>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-01-01 16:14:08</sys_created_on>
-        <sys_id>83613b4a8376d21096cc5855eeaad349</sys_id>
+        <sys_created_on>2025-01-25 14:54:21</sys_created_on>
+        <sys_id>98554331835f125096cc5855eeaad3bb</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-01 16:14:08</sys_updated_on>
+        <sys_updated_on>2025-01-25 14:54:21</sys_updated_on>
         <table>sys_ui_action</table>
-        <use_es_latest>true</use_es_latest>
+        <use_es_latest>false</use_es_latest>
     </sys_es_latest_script>
 </record_update>

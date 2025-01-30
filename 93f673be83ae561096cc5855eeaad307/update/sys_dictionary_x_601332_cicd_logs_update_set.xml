@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="automated_deployment" table="x_601332_cicd_deployment_pack">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="update_set" table="x_601332_cicd_logs">
         <active>true</active>
         <array>false</array>
-        <attributes/>
+        <attributes>edge_encryption_enabled=true</attributes>
         <audit>false</audit>
         <calculation/>
         <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>Auto Deployment</column_label>
+        <column_label>Update Set</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -21,16 +21,16 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>automated_deployment</element>
+        <element>update_set</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <formula/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="">boolean</internal_type>
+        <internal_type display_value="String">string</internal_type>
         <mandatory>false</mandatory>
-        <max_length>40</max_length>
-        <name>x_601332_cicd_deployment_pack</name>
+        <max_length>100</max_length>
+        <name>x_601332_cicd_logs</name>
         <next_element/>
         <primary>false</primary>
         <read_only>true</read_only>
@@ -46,15 +46,15 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-01-23 15:10:07</sys_created_on>
-        <sys_id>4cc5bc19831f5e1096cc5855eeaad399</sys_id>
-        <sys_name>Auto Deployment</sys_name>
+        <sys_created_on>2025-01-26 04:48:20</sys_created_on>
+        <sys_id>89340e4683db525096cc5855eeaad33c</sys_id>
+        <sys_name>Update Set</sys_name>
         <sys_package display_value="CICD Pipeline" source="x_601332_cicd">93f673be83ae561096cc5855eeaad307</sys_package>
         <sys_policy/>
         <sys_scope display_value="CICD Pipeline">93f673be83ae561096cc5855eeaad307</sys_scope>
-        <sys_update_name>sys_dictionary_x_601332_cicd_deployment_pack_automated_deployment</sys_update_name>
+        <sys_update_name>sys_dictionary_x_601332_cicd_logs_update_set</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-25 06:55:23</sys_updated_on>
+        <sys_updated_on>2025-01-26 04:48:43</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

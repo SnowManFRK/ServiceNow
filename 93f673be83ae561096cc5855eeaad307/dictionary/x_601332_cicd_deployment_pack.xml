@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="2e95dccc831fd61096cc5855eeaad36b" label="Deployment pack" max_length="40" name="x_601332_cicd_deployment_pack" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element attributes="encode_utf8=false" label="Deployment Request" max_length="32" name="deployment_request" reference="x_601332_cicd_request" type="reference"/>
+        <element label="Auto Deployment" max_length="40" name="automated_deployment" read_only="true" type="boolean"/>
+        <element choice="1" default="Draft" label="State" max_length="80" name="state" read_only="true" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Error" sequence="4" value="Error"/>
+                <element inactive_on_update="false" label="Draft" sequence="0" value="Draft"/>
+                <element inactive_on_update="false" label="Commited" sequence="3" value="Complete"/>
+                <element inactive_on_update="false" label="Loaded" sequence="1" value="Loaded"/>
+                <element inactive_on_update="false" label="Previewed" sequence="2" value="Previewed"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Notes" max_length="40" name="notes" type="journal_input"/>
+        <element label="Update Set" max_length="4000" name="update_set" read_only="true" reference="sys_update_set" type="glide_list"/>
+        <element attributes="encode_utf8=false" label="Deploying on" max_length="32" name="added_instance" read_only="true" reference="x_601332_cicd_environment" type="reference"/>
+        <element label="Deployed in" max_length="4000" name="target_instance" read_only="true" reference="x_601332_cicd_environment" type="glide_list"/>
+        <index name="index">
+            <element name="added_instance"/>
+        </index>
+        <index name="index2">
+            <element name="deployment_request"/>
+        </index>
+    </element>
+</database>

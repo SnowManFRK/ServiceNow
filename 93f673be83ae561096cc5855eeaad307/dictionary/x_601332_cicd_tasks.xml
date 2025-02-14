@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="10dc333683ee561096cc5855eeaad356" label="Deployment Tasks" max_length="40" name="x_601332_cicd_tasks" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Run" max_length="40" name="test_type" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Test Suite" sequence="0" value="Test Suite"/>
+                <element inactive_on_update="false" label="Not Required" sequence="-1" value="Not Required"/>
+                <element inactive_on_update="false" label="Test" sequence="1" value="Test"/>
+            </choice>
+        </element>
+        <element label="Collision" max_length="40" name="collision" read_only="true" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Remote: Retrieved Update Set" max_length="40" name="remote_set_sys_id" read_only="true" type="string"/>
+        <element label="Parent" max_length="40" name="parent" read_only="true" type="boolean"/>
+        <element attributes="encode_utf8=false" label="Test" max_length="32" name="test" reference="sys_atf_test" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Deleted" max_length="40" name="deleted" read_only="true" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element label="Order" max_length="40" name="order" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Inserted" max_length="40" name="inserted" read_only="true" type="string"/>
+        <element attributes="encode_utf8=false" label="Update set" max_length="32" name="update_set" read_only="true" reference="sys_update_set" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Loaded" max_length="40" name="loaded" read_only="true" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="Remote: Local Update Set" max_length="40" name="remote_local_update_set_sys_id" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Notes" max_length="40" name="notes" type="journal_input"/>
+        <element attributes="encode_utf8=false" label="Test Suite" max_length="32" name="test_suite" reference="sys_atf_test_suite" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
+        <element label="Deployment Pack" max_length="32" name="deployment_request" reference="x_601332_cicd_deployment_pack" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Committed" max_length="40" name="committed" read_only="true" type="glide_date_time"/>
+        <element choice="3" default="Draft" label="State" max_length="40" name="state" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="ATF- Fail" sequence="6" value="ATF- Fail"/>
+                <element inactive_on_update="false" label="ATF- Pass" sequence="5" value="ATF- Pass"/>
+                <element inactive_on_update="false" label="Completed" sequence="7" value="Completed"/>
+                <element inactive_on_update="false" label="ATF- In Progress" sequence="4" value="ATF- In Progress"/>
+                <element inactive_on_update="false" label="Error" sequence="8" value="Error"/>
+                <element inactive_on_update="false" label="Committed" sequence="2" value="Committed"/>
+                <element inactive_on_update="false" label="Canceled" sequence="9" value="Canceled"/>
+                <element inactive="true" inactive_on_update="true" label="Loaded" sequence="0" value="Loaded"/>
+                <element inactive_on_update="false" label="Draft" sequence="0" value="Draft"/>
+                <element inactive_on_update="false" label="Collision" sequence="3" value="Collision"/>
+                <element inactive_on_update="false" label="Loaded &amp; Previewed" sequence="1" value="Previewed"/>
+            </choice>
+        </element>
+        <element attributes="encode_utf8=false" label="Remote Environment" max_length="32" name="target_environment" read_only="true" reference="x_601332_cicd_environment" type="reference"/>
+        <element attributes="encode_utf8=false" label="Batch Task" max_length="32" name="batch_task" reference="x_601332_cicd_tasks" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Total" max_length="40" name="total" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Updated" max_length="40" name="updated" read_only="true" type="string"/>
+        <index name="index">
+            <element name="batch_task"/>
+        </index>
+        <index name="index2">
+            <element name="deployment_request"/>
+        </index>
+        <index name="index3">
+            <element name="target_environment"/>
+        </index>
+        <index name="index4">
+            <element name="test"/>
+        </index>
+        <index name="index5">
+            <element name="test_suite"/>
+        </index>
+        <index name="index6">
+            <element name="update_set"/>
+        </index>
+    </element>
+</database>

@@ -52,7 +52,6 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-12-22 15:12:57</sys_created_on>
-        <sys_id>5583c8038322961096cc5855eeaad398</sys_id>
         <sys_name>x_601332_cicd_logs</sys_name>
         <sys_package display_value="CICD Pipeline" source="x_601332_cicd">93f673be83ae561096cc5855eeaad307</sys_package>
         <sys_policy/>

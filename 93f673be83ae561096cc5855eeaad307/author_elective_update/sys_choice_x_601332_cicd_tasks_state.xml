@@ -6,7 +6,6 @@
             <sys_class_name>sys_choice_set</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2024-12-28 12:23:31</sys_created_on>
-            <sys_id>3d4616fc833ad61096cc5855eeaad370</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>state</sys_name>
             <sys_package display_value="CICD Pipeline" source="x_601332_cicd">93f673be83ae561096cc5855eeaad307</sys_package>
@@ -30,7 +29,6 @@
             <sys_created_on>2024-12-31 06:03:12</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>d80c18fd83b2521096cc5855eeaad351</sys_id>
             <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2025-01-01 15:07:44</sys_updated_on>
@@ -50,7 +48,6 @@
             <sys_created_on>2024-12-28 12:23:31</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>b54616fc833ad61096cc5855eeaad370</sys_id>
             <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2025-01-01 15:07:44</sys_updated_on>
@@ -70,7 +67,6 @@
             <sys_created_on>2024-12-28 12:23:31</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>f54616fc833ad61096cc5855eeaad371</sys_id>
             <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2025-01-01 15:15:39</sys_updated_on>
@@ -90,7 +86,6 @@
             <sys_created_on>2024-12-28 12:23:31</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>754616fc833ad61096cc5855eeaad372</sys_id>
             <sys_mod_count>2</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2025-01-02 06:07:14</sys_updated_on>
@@ -110,7 +105,6 @@
             <sys_created_on>2024-12-28 12:23:31</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>f14616fc833ad61096cc5855eeaad373</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2024-12-28 12:23:31</sys_updated_on>
@@ -130,7 +124,6 @@
             <sys_created_on>2025-01-06 13:29:28</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>67ab343f83fe921096cc5855eeaad3d1</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2025-01-06 13:29:28</sys_updated_on>
@@ -150,7 +143,6 @@
             <sys_created_on>2025-01-06 13:29:28</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>2bab787f83fe921096cc5855eeaad30b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2025-01-06 13:29:28</sys_updated_on>
@@ -170,7 +162,6 @@
             <sys_created_on>2025-01-06 13:29:28</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>23ab787f83fe921096cc5855eeaad30f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2025-01-06 13:29:28</sys_updated_on>
@@ -190,7 +181,6 @@
             <sys_created_on>2025-01-06 13:29:28</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>2bab787f83fe921096cc5855eeaad312</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2025-01-06 13:29:28</sys_updated_on>
@@ -210,7 +200,6 @@
             <sys_created_on>2024-12-28 12:23:31</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>714616fc833ad61096cc5855eeaad374</sys_id>
             <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2025-01-06 13:29:28</sys_updated_on>
@@ -230,7 +219,6 @@
             <sys_created_on>2025-01-06 13:29:28</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>a7ab787f83fe921096cc5855eeaad319</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2025-01-06 13:29:28</sys_updated_on>

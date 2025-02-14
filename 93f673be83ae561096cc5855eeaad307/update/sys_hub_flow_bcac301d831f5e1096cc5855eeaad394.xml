@@ -79,16 +79,16 @@
         <table>x_601332_cicd_deployment_pack</table>
     </sys_flow_record_trigger>
     <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
-        <active>true</active>
+        <active>false</active>
         <data>{"run_flow_in":"background","run_when_user_list":[],"run_when_setting":"both","run_when_user_setting":"any","run_on_extended":"false"}</data>
         <identifier>bcac301d831f5e1096cc5855eeaad394</identifier>
         <runner>FDTriggerRunner</runner>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-24 15:09:17</sys_created_on>
         <sys_id>dd2f3da98317de1096cc5855eeaad310</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-24 15:09:17</sys_updated_on>
+        <sys_updated_on>2025-01-24 17:51:28</sys_updated_on>
         <trigger display_value="">1f5579ad83d3de1096cc5855eeaad3a6</trigger>
     </sys_trigger_runner_mapping>
     <sys_trigger_runner_mapping action="delete_multiple" query="identifier=bcac301d831f5e1096cc5855eeaad394^sys_idNOT INdd2f3da98317de1096cc5855eeaad310"/>

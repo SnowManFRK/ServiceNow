@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_dictionary action="DELETE" element="target_instances" table="x_601332_cicd_request">
+        <active>true</active>
+        <array>false</array>
+        <attributes>multiple=true</attributes>
+        <audit>false</audit>
+        <calculation/>
+        <choice>1</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label>Target Instances</column_label>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>target_instances</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <internal_type display_value="">glide_list</internal_type>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <name>x_601332_cicd_request</name>
+        <next_element/>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="x_601332_cicd_environment">x_601332_cicd_environment</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_dictionary</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-28 02:13:41</sys_created_on>
+        <sys_id>74ba00bc83be961096cc5855eeaad3d4</sys_id>
+        <sys_name>Target Instances</sys_name>
+        <sys_package display_value="CICD Pipeline" source="x_601332_cicd">93f673be83ae561096cc5855eeaad307</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CICD Pipeline">93f673be83ae561096cc5855eeaad307</sys_scope>
+        <sys_update_name>sys_dictionary_x_601332_cicd_request_target_instances</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-31 05:07:01</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_dictionary>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CICD Pipeline">93f673be83ae561096cc5855eeaad307</application>
+        <file_path/>
+        <instance_id>f42bd80f1bcefd50168f4089bd4bcbdd</instance_id>
+        <instance_name>dev195195</instance_name>
+        <name>sys_dictionary_x_601332_cicd_request_target_instances</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="target_instances" table="x_601332_cicd_request"><active>true</active><array>false</array><attributes>multiple=true</attributes><audit>false</audit><calculation/><choice>1</choice><choice_field/><choice_table/><column_label>Target Instances</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>target_instances</element><element_reference>false</element_reference><foreign_database/><formula/><function_definition/><function_field>false</function_field><internal_type display_value="">glide_list</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>x_601332_cicd_request</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference display_value="" name="x_601332_cicd_environment">x_601332_cicd_environment</reference><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-28 02:13:41</sys_created_on><sys_id>74ba00bc83be961096cc5855eeaad3d4</sys_id><sys_name>Target Instances</sys_name><sys_package display_value="CICD Pipeline" source="x_601332_cicd">93f673be83ae561096cc5855eeaad307</sys_package><sys_policy/><sys_scope display_value="CICD Pipeline">93f673be83ae561096cc5855eeaad307</sys_scope><sys_update_name>sys_dictionary_x_601332_cicd_request_target_instances</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-31 05:07:01</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><virtual_type>script</virtual_type><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+        <payload_hash>1250003261</payload_hash>
+        <record_name>Deployment Request.Target Instances</record_name>
+        <reverted_from/>
+        <source>b8b0b01b83a2121096cc5855eeaad36c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-31 05:07:01</sys_created_on>
+        <sys_id>4d2f8cbd8372521096cc5855eeaad304</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1941b1c384d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-31 05:07:01</sys_updated_on>
+        <type>Dictionary</type>
+        <update_guid>052f8cbdf572521067338960c7ddd604</update_guid>
+        <update_guid_history>052f8cbdf572521067338960c7ddd604:1250003261,77ae88fde8725210d6079c3a93ccc133:1428495771,1cd19cb490fe96100827954773b0073d:-1481494447,30b198b482fe9610fd651785abae34ce:-112611294,ea5190b46bfe9610ca271d8591c6e1ba:-1764838895,74ba00bca9be9610dd7f74d64346bae5:1167942466</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-31 06:12:13</sys_created_on>
+        <sys_db_object display_value="" name="sys_dictionary">sys_dictionary</sys_db_object>
+        <sys_id>4700f72a945b4cfe95da49ae81ebbdb1</sys_id>
+        <sys_metadata>74ba00bc83be961096cc5855eeaad3d4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Target Instances</sys_name>
+        <sys_package display_value="CICD Pipeline" source="x_601332_cicd">93f673be83ae561096cc5855eeaad307</sys_package>
+        <sys_parent display_value="Deployment Request">fc7afbf283ee561096cc5855eeaad328</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="CICD Pipeline">93f673be83ae561096cc5855eeaad307</sys_scope>
+        <sys_scope_delete display_value="">1d0b0b68aeab417c83a35bb910e8d7a4</sys_scope_delete>
+        <sys_update_name>sys_dictionary_x_601332_cicd_request_target_instances</sys_update_name>
+        <sys_update_version display_value="sys_dictionary_x_601332_cicd_request_target_instances">4d2f8cbd8372521096cc5855eeaad304</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-31 06:12:13</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

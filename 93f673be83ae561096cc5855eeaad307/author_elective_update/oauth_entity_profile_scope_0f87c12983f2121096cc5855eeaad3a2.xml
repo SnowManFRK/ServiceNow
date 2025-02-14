@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="oauth_entity_profile_scope">
+    <oauth_entity_profile_scope action="DELETE">
+        <oauth_entity_profile display_value="&lt;provider-name&gt; Profile">8387c12983f2121096cc5855eeaad393</oauth_entity_profile>
+        <oauth_entity_scope display_value="email">cf87c12983f2121096cc5855eeaad38f</oauth_entity_scope>
+        <sys_class_name>oauth_entity_profile_scope</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-30 14:34:59</sys_created_on>
+        <sys_id>0f87c12983f2121096cc5855eeaad3a2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>8387c12983f2121096cc5855eeaad393</sys_name>
+        <sys_package display_value="CICD Pipeline" source="x_601332_cicd">93f673be83ae561096cc5855eeaad307</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CICD Pipeline">93f673be83ae561096cc5855eeaad307</sys_scope>
+        <sys_update_name>oauth_entity_profile_scope_0f87c12983f2121096cc5855eeaad3a2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-30 14:34:59</sys_updated_on>
+    </oauth_entity_profile_scope>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CICD Pipeline">93f673be83ae561096cc5855eeaad307</application>
+        <file_path/>
+        <instance_id>f42bd80f1bcefd50168f4089bd4bcbdd</instance_id>
+        <instance_name>dev195195</instance_name>
+        <name>oauth_entity_profile_scope_0f87c12983f2121096cc5855eeaad3a2</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="oauth_entity_profile_scope"><oauth_entity_profile_scope action="INSERT_OR_UPDATE"><oauth_entity_profile display_value="&lt;provider-name&gt; Profile">8387c12983f2121096cc5855eeaad393</oauth_entity_profile><oauth_entity_scope display_value="email">cf87c12983f2121096cc5855eeaad38f</oauth_entity_scope><sys_class_name>oauth_entity_profile_scope</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-30 14:34:59</sys_created_on><sys_id>0f87c12983f2121096cc5855eeaad3a2</sys_id><sys_mod_count>0</sys_mod_count><sys_name>8387c12983f2121096cc5855eeaad393</sys_name><sys_package display_value="CICD Pipeline" source="x_601332_cicd">93f673be83ae561096cc5855eeaad307</sys_package><sys_policy/><sys_scope display_value="CICD Pipeline">93f673be83ae561096cc5855eeaad307</sys_scope><sys_update_name>oauth_entity_profile_scope_0f87c12983f2121096cc5855eeaad3a2</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-30 14:34:59</sys_updated_on></oauth_entity_profile_scope></record_update>]]></payload>
+        <payload_hash>-127701316</payload_hash>
+        <record_name>8387c12983f2121096cc5855eeaad393</record_name>
+        <reverted_from/>
+        <source>b8b0b01b83a2121096cc5855eeaad36c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-30 14:34:59</sys_created_on>
+        <sys_id>5787c12983f2121096cc5855eeaad3a5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19417fdd8930000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-30 14:34:59</sys_updated_on>
+        <type>OAuth Entity Profile Scope</type>
+        <update_guid>0b87c1294ff212102cc1d5495faa8aa4</update_guid>
+        <update_guid_history>0b87c1294ff212102cc1d5495faa8aa4:-127701316</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="SNOW-CICD">c31a85e983f2121096cc5855eeaad3a0</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-30 14:46:11</sys_created_on>
+        <sys_db_object display_value="" name="oauth_entity_profile_scope">oauth_entity_profile_scope</sys_db_object>
+        <sys_id>a66c64697efe4689b073eebe4a5ef229</sys_id>
+        <sys_metadata>0f87c12983f2121096cc5855eeaad3a2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>8387c12983f2121096cc5855eeaad393</sys_name>
+        <sys_package display_value="CICD Pipeline" source="x_601332_cicd">93f673be83ae561096cc5855eeaad307</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="CICD Pipeline">93f673be83ae561096cc5855eeaad307</sys_scope>
+        <sys_scope_delete display_value="">1d0b0b68aeab417c83a35bb910e8d7a4</sys_scope_delete>
+        <sys_update_name>oauth_entity_profile_scope_0f87c12983f2121096cc5855eeaad3a2</sys_update_name>
+        <sys_update_version display_value="oauth_entity_profile_scope_0f87c12983f2121096cc5855eeaad3a2">5787c12983f2121096cc5855eeaad3a5</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-30 14:46:11</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

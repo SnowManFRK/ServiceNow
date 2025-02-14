@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="a701496d83b2121096cc5855eeaad3ee" label="Environment" max_length="40" name="x_601332_cicd_environment" type="collection">
+        <element label="Name" max_length="40" name="name" type="string"/>
+        <element label="Automation Testing" max_length="40" name="automation_testing" type="boolean"/>
+        <element label="URL" max_length="1024" name="url" type="url"/>
+        <element label="Credential" max_length="32" name="credential" reference="sys_alias" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Remote Instance Sys ID" max_length="40" name="remote_instance_sys_id" type="string"/>
+        <element choice="1" label="Type" max_length="40" name="type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Development" sequence="0" value="Development"/>
+                <element inactive_on_update="false" label="Production" sequence="4" value="Production"/>
+                <element inactive_on_update="false" label="SIT" sequence="2" value="SIT"/>
+                <element inactive_on_update="false" label="Staging" sequence="3" value="Staging"/>
+                <element inactive_on_update="false" label="QA" sequence="1" value="QA"/>
+            </choice>
+        </element>
+        <element label="Order" max_length="40" name="order" type="integer"/>
+        <index name="index">
+            <element name="credential"/>
+        </index>
+    </element>
+</database>

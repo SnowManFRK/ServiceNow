@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="fc7afbf283ee561096cc5855eeaad328" label="Deployment Request" max_length="40" name="x_601332_cicd_request" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Release Note" max_length="4000" name="release_note" type="string"/>
+        <element label="Short description" max_length="200" name="description" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Type" max_length="40" name="type" type="string">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="Draft" label="State" max_length="40" name="state" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Draft" sequence="0" value="Draft"/>
+                <element inactive_on_update="false" label="In Review" sequence="1" value="In Review"/>
+                <element inactive_on_update="false" label="Ready for Deployment" sequence="2" value="Ready for Deployment"/>
+                <element inactive_on_update="false" label="Closed - Completed" sequence="3" value="Closed - Completed"/>
+                <element inactive_on_update="false" label="Closed - Rejected" sequence="4" value="Closed - Rejected"/>
+                <element inactive_on_update="false" label="Closed - Failed" sequence="5" value="Closed - Failed"/>
+                <element inactive_on_update="false" label="Canceled" sequence="6" value="Canceled"/>
+            </choice>
+        </element>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Target Environments" mandatory="true" max_length="1024" name="target_environments" reference="x_601332_cicd_environment" type="glide_list"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Stage" max_length="40" name="stage" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Draft" value="0"/>
+                <element inactive_on_update="false" label="In Progress" value="1"/>
+            </choice>
+        </element>
+        <element label="Feature/Epic" mandatory="true" max_length="40" name="feature" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element label="Update Set" mandatory="true" max_length="32" name="update_set" reference="sys_update_set" type="glide_list"/>
+        <element attributes="encode_utf8=false" label="Assignment Group" mandatory="true" max_length="32" name="assignment_group" reference="sys_user_group" type="reference"/>
+        <index name="index">
+            <element name="assignment_group"/>
+        </index>
+        <index name="index2">
+            <element name="update_set"/>
+        </index>
+    </element>
+</database>

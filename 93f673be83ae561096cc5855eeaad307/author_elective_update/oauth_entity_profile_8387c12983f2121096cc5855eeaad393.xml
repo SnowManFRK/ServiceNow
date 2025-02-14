@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="oauth_entity_profile">
+    <oauth_entity_profile action="DELETE">
+        <default>true</default>
+        <grant_type>authorization_code</grant_type>
+        <jwt_provider/>
+        <name>SNOW-CICD</name>
+        <oauth_entity display_value="SNOW-dev229906">4f87c12983f2121096cc5855eeaad38d</oauth_entity>
+        <saml2_assertion_producer/>
+        <sys_class_name>oauth_entity_profile</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-30 14:34:59</sys_created_on>
+        <sys_id>8387c12983f2121096cc5855eeaad393</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>SNOW-CICD</sys_name>
+        <sys_package display_value="CICD Pipeline" source="x_601332_cicd">93f673be83ae561096cc5855eeaad307</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CICD Pipeline">93f673be83ae561096cc5855eeaad307</sys_scope>
+        <sys_update_name>oauth_entity_profile_8387c12983f2121096cc5855eeaad393</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-30 14:39:11</sys_updated_on>
+    </oauth_entity_profile>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CICD Pipeline">93f673be83ae561096cc5855eeaad307</application>
+        <file_path/>
+        <instance_id>f42bd80f1bcefd50168f4089bd4bcbdd</instance_id>
+        <instance_name>dev195195</instance_name>
+        <name>oauth_entity_profile_8387c12983f2121096cc5855eeaad393</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="oauth_entity_profile"><oauth_entity_profile action="INSERT_OR_UPDATE"><default>true</default><grant_type>authorization_code</grant_type><jwt_provider/><name>SNOW-CICD</name><oauth_entity display_value="SNOW-dev229906">4f87c12983f2121096cc5855eeaad38d</oauth_entity><saml2_assertion_producer/><sys_class_name>oauth_entity_profile</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-30 14:34:59</sys_created_on><sys_id>8387c12983f2121096cc5855eeaad393</sys_id><sys_mod_count>2</sys_mod_count><sys_name>SNOW-CICD</sys_name><sys_package display_value="CICD Pipeline" source="x_601332_cicd">93f673be83ae561096cc5855eeaad307</sys_package><sys_policy/><sys_scope display_value="CICD Pipeline">93f673be83ae561096cc5855eeaad307</sys_scope><sys_update_name>oauth_entity_profile_8387c12983f2121096cc5855eeaad393</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-30 14:39:11</sys_updated_on></oauth_entity_profile></record_update>]]></payload>
+        <payload_hash>-470900675</payload_hash>
+        <record_name>SNOW-CICD</record_name>
+        <reverted_from/>
+        <source>b8b0b01b83a2121096cc5855eeaad36c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-30 14:39:11</sys_created_on>
+        <sys_id>f488c16983f2121096cc5855eeaad387</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1941801b2590000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-30 14:39:11</sys_updated_on>
+        <type>OAuth Entity Profile</type>
+        <update_guid>bc88c169a2f21210a0c79ad4cb57ec86</update_guid>
+        <update_guid_history>bc88c169a2f21210a0c79ad4cb57ec86:-470900675,73e70d655cf21210e067bb67d4a28bd7:-2046774584,8787c129f9f212104609d897b55916a1:-1135246095</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="SNOW-CICD">5f1a85e983f2121096cc5855eeaad3a7</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-30 14:46:11</sys_created_on>
+        <sys_db_object display_value="" name="oauth_entity_profile">oauth_entity_profile</sys_db_object>
+        <sys_id>81af9f68645944bc86ad8a9d97704924</sys_id>
+        <sys_metadata>8387c12983f2121096cc5855eeaad393</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SNOW-CICD</sys_name>
+        <sys_package display_value="CICD Pipeline" source="x_601332_cicd">93f673be83ae561096cc5855eeaad307</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="CICD Pipeline">93f673be83ae561096cc5855eeaad307</sys_scope>
+        <sys_scope_delete display_value="">1d0b0b68aeab417c83a35bb910e8d7a4</sys_scope_delete>
+        <sys_update_name>oauth_entity_profile_8387c12983f2121096cc5855eeaad393</sys_update_name>
+        <sys_update_version display_value="oauth_entity_profile_8387c12983f2121096cc5855eeaad393">f488c16983f2121096cc5855eeaad387</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-30 14:46:11</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

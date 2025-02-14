@@ -13,7 +13,7 @@
         <label>Deployment Request</label>
         <live_feed_enabled>false</live_feed_enabled>
         <name>x_601332_cicd_request</name>
-        <number_ref display_value="DEP">968b37f683ee561096cc5855eeaad35c</number_ref>
+        <number_ref display_value="DER">968b37f683ee561096cc5855eeaad35c</number_ref>
         <provider_class/>
         <read_access>true</read_access>
         <scriptable_table>false</scriptable_table>

@@ -47,7 +47,6 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-12-31 05:17:32</sys_created_on>
-        <sys_id>078154f183b2521096cc5855eeaad327</sys_id>
         <sys_name>Release Note</sys_name>
         <sys_package display_value="CICD Pipeline" source="x_601332_cicd">93f673be83ae561096cc5855eeaad307</sys_package>
         <sys_policy/>
